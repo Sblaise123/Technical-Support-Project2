@@ -7,7 +7,7 @@ import logging
 from typing import List, Dict, Optional
 
 from database import engine, Base, get_db
-from models import (
+from .models import (
     Server, Service, Incident, Alert, HealthCheck, 
     PerformanceMetric, MaintenanceWindow
 )

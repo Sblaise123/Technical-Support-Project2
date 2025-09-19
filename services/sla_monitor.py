@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta
 from sqlalchemy.orm import Session
 from sqlalchemy import and_, or_
-from models import Ticket, SLATarget, Customer
+from .models import Ticket, SLATarget, Customer
 from typing import Dict, List
 import logging
 
